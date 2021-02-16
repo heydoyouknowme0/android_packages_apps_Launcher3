@@ -59,11 +59,11 @@
         android:defaultValue="@bool/allow_rotation"
         android:persistent="true" />
 
-    <SwitchPreference
+    <!-- <SwitchPreference
         android:key="pref_grid_options"
         android:title="Enable grid options"
         android:defaultValue="false"
-        android:persistent="true" />
+        android:persistent="true" /> -->
 
     <SwitchPreference
         android:defaultValue="true"
@@ -93,11 +93,11 @@
         android:defaultValue="true"
         android:persistent="true"/>
 
-    <androidx.preference.PreferenceScreen
+    <!-- <androidx.preference.PreferenceScreen
         android:key="pref_developer_options"
         android:persistent="false"
         android:title="Developer Options"
-        android:fragment="com.android.launcher3.settings.DeveloperOptionsFragment"/>
+        android:fragment="com.android.launcher3.settings.DeveloperOptionsFragment"/> -->
 
     <SwitchPreference
         android:key="pref_desktop_show_labels"
@@ -111,7 +111,7 @@
         android:defaultValue="true"
         android:persistent="true" />
 
-        <SwitchPreference
+    <SwitchPreference
         android:key="pref_show_labels_landscape"
         android:title="@string/show_labels_landscape"
         android:defaultValue="false"
